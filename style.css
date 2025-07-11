@@ -64,7 +64,7 @@ body{
     background-color: rgb(236, 240, 242);
     margin: 100px;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
 }
 .action{
     display: flex;
@@ -153,9 +153,6 @@ textarea::placeholder {
   font-size: 20px;
   line-height: normal;
   color: #999;
-}
-input::placeholder,
-textarea::placeholder {
   line-height: 1.5;
   display: flex;
   align-items: center; 
@@ -167,4 +164,37 @@ textarea {
   align-items: center;
   padding: 12px;
   line-height: 1.5;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.footer h1{
+    font-size: 40px;
+    color: darkblue;
+}
+.footer p{
+    color: rgb(155, 159, 162);
+    font-size: large;
+    width: 600px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    gap: 30px;
+}
+.foot li{
+    list-style: none;
+    font-size: larger;
+}
+.foot a{
+    text-decoration: none;
+}
+footer{
+    background-color: white;
 }

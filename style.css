@@ -1,0 +1,19 @@
+.header-content{
+    background-image: url(assets/Hero-bg.png);
+    width: 100%;
+    
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+nav{
+    border: 2px solid saddlebrown;
+    
+}
+nav ul{
+display: flex;
+    justify-content: space-between;
+}

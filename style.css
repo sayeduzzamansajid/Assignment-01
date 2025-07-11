@@ -13,13 +13,6 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-/* .header-content{
-    background-image: url(assets/Hero-bg.png);
-    background-size: cover;
-    display: flex;
-    min-height: 100vh;
-    text-align: center;
-    } */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -55,6 +48,11 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: scale(1.15);
+}
 body{
     background-color: rgb(236, 240, 242);
 }
@@ -85,6 +83,9 @@ body{
     border-radius: 50px;
     align-items: center;
 }
+.big-img{
+    border-radius: 30px;
+}
 .text h3{
     font-size: 45px;
 }
@@ -104,10 +105,60 @@ body{
     padding: 30px;
 
 }
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.user-review{
+    display: flex;
+    flex-direction: column;
+    
+}
+.user-review h1{
+    padding: 20px 20px 40px;
+    text-align: center;
+    font-size: 40px;
+}
 .data{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.user{
+    display: flex;
+    width: 300px;
+    height: 280px;
+    border-radius: 15px;
+    border: 2px solid white;
+    flex-direction: column;
+    background-color: #adadad6d;
+    box-shadow: 10px 10px 30px ;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.card .star{
+    padding: 20px 60px 20px 20px;
+}
+.card h2{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.card p{
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.userdata{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
 }
 .show h2{ 
     font-size: 90px;
@@ -165,7 +216,23 @@ textarea {
   padding: 12px;
   line-height: 1.5;
 }
-
+.focused{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: rgb(221, 226, 231);
+}
+.focused h2{
+    font-size: 50px;
+    padding: 60px 10px 1px;
+}
+.focused p{
+    font-size: 20px;
+    padding: 20px;
+}
 .footer{
     display: flex;
     flex-direction: column;

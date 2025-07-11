@@ -136,7 +136,7 @@ body{
     box-shadow: 10px 10px 30px ;
 }
 .user:hover{
-    background-color: rgb(158, 153, 162);
+    background-color: rgb(209, 200, 215);
     transform: scale(1.05);
 }
 .card{

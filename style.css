@@ -135,6 +135,10 @@ body{
     background-color: #adadad6d;
     box-shadow: 10px 10px 30px ;
 }
+.user:hover{
+    background-color: rgb(158, 153, 162);
+    transform: scale(1.05);
+}
 .card{
     display: flex;
     flex-direction: column;

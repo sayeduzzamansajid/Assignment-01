@@ -55,3 +55,31 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    justify-content: center;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.img{
+    border-radius: 50px;
+    align-items: center;
+}
+.text h3{
+    font-size: 45px;
+}
+.text p{
+    width: 300px;
+}

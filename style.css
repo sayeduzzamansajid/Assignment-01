@@ -55,9 +55,13 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+body{
+    background-color: rgb(236, 240, 242);
+}
 .body{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(236, 240, 242);
     margin: 100px;
     justify-content: center;
     gap: 50px;
@@ -115,4 +119,52 @@
 .show p{ 
     text-align: center;
 
+}
+
+.getintouch{
+    display: flex;
+    width: 80vw;
+    gap: 200px;
+    align-items: center;
+}
+.getintouch h1{
+    font-size: 90px;
+    width: 30vw;
+    align-items: center;
+
+}
+.form{
+    width: 30vw;
+    margin: 20px;
+}
+.form label{
+    font-size: 25px;
+}
+.form input{
+    font-size: 40px;
+    border-radius: 10px;
+}
+.form textarea{
+    font-size: 40px;
+    border-radius: 10px;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 20px;
+  line-height: normal;
+  color: #999;
+}
+input::placeholder,
+textarea::placeholder {
+  line-height: 1.5;
+  display: flex;
+  align-items: center; 
+}
+
+input,
+textarea {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  line-height: 1.5;
 }

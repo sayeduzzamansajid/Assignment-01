@@ -26,7 +26,7 @@
 .logo{
     font-weight: 800;
     font-size: 40px;
-    color: darkblue;
+    color:lightseagreen;
     max-width: 0px;
 }
 .front-text{
@@ -47,11 +47,12 @@
     background-color: rgb(68, 109, 242);
     padding: 10px 20px;
     border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(106, 101, 101, 0.862);
 }
 .btn:hover{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.627);
     color: black;
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 body{
     background-color: rgb(236, 240, 242);
@@ -128,16 +129,16 @@ body{
 .user{
     display: flex;
     width: 300px;
-    height: 280px;
+    height: 300px;
     border-radius: 15px;
     border: 2px solid white;
     flex-direction: column;
     background-color: #adadad6d;
-    box-shadow: 10px 10px 30px ;
+    box-shadow: 5px 10px 30px ;
 }
 .user:hover{
-    background-color: rgb(209, 200, 215);
-    transform: scale(1.05);
+    background-color: rgba(242, 243, 244, 0.73);
+    transform: scale(1.02);
 }
 .card{
     display: flex;
@@ -179,13 +180,14 @@ body{
 .getintouch{
     display: flex;
     width: 80vw;
-    gap: 200px;
+    gap: 280px;
     align-items: center;
 }
 .getintouch h1{
     font-size: 90px;
     width: 30vw;
     align-items: center;
+    
 
 }
 .form{
@@ -193,19 +195,26 @@ body{
     margin: 20px;
 }
 .form label{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .form input{
-    font-size: 40px;
+    font-size: 23px;
     border-radius: 10px;
+    width: 100%;
+    height: 80px;padding: 20px;
+    background-color: #cfcece24;
 }
 .form textarea{
-    font-size: 40px;
+    font-size: 25px;
     border-radius: 10px;
+    background-color: #cfcece24;
+    padding: 20px;
+    width: 100%;
 }
 input::placeholder,
 textarea::placeholder {
-  font-size: 20px;
+  font-size: 25px;
   line-height: normal;
   color: #999;
   line-height: 1.5;
@@ -247,7 +256,7 @@ textarea {
 }
 .footer h1{
     font-size: 40px;
-    color: darkblue;
+    color:lightseagreen;
 }
 .footer p{
     color: rgb(155, 159, 162);
@@ -268,4 +277,12 @@ textarea {
 }
 footer{
     background-color: white;
+}
+.b{
+    width: 100%;
+
+}
+.b:hover{
+    background-color: rgb(150, 127, 255);
+    transform: scale(1.05);
 }
